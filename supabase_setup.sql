@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS officials (
   lname TEXT NOT NULL,
   suffix TEXT DEFAULT '',
   "contactNo" TEXT DEFAULT '',
-  address TEXT DEFAULT '',
+  address TEXT DEFAULT 'Barangay Fatima I, Dasmarinas, Cavite',
   "startOfTerm" TEXT DEFAULT '',
   "endOfTerm" TEXT DEFAULT '',
   "isOther" BOOLEAN DEFAULT FALSE,
@@ -38,11 +38,11 @@ CREATE TABLE IF NOT EXISTS citizens (
   "nationalID" TEXT DEFAULT '',
   "voterStatus" TEXT DEFAULT 'Voter',
   email TEXT DEFAULT '',
-  address TEXT DEFAULT '',
+  address TEXT DEFAULT 'Barangay Fatima I, Dasmarinas, Cavite',
   blk TEXT DEFAULT '',
   lot TEXT DEFAULT '',
   subdivision TEXT DEFAULT '',
-  purok TEXT DEFAULT '',
+  purok TEXT DEFAULT 'Fatima 1',
   precinct TEXT DEFAULT '',
   "householdNo" TEXT DEFAULT '',
   rentee TEXT DEFAULT 'No',
@@ -93,3 +93,7 @@ ALTER TABLE citizens DISABLE ROW LEVEL SECURITY;
 ALTER TABLE blotters DISABLE ROW LEVEL SECURITY;
 ALTER TABLE requests DISABLE ROW LEVEL SECURITY;
 ALTER TABLE announcements DISABLE ROW LEVEL SECURITY;
+
+-- Set all existing records to Fatima 1 / Barangay Fatima I
+UPDATE citizens SET purok = 'Fatima 1', address = 'Barangay Fatima I, Dasmarinas, Cavite';
+UPDATE officials SET address = 'Barangay Fatima I, Dasmarinas, Cavite';
