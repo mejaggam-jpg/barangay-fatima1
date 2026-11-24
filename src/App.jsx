@@ -62,25 +62,25 @@ const defaultUsers = [
 ];
 
 const defaultOfficials = [
-  { id: 1, position: 'Captain', prefix: '', fname: 'Garyy', mname: 'N.', lname: 'Esteban', suffix: '', contactNo: '09123451234', address: 'Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
-  { id: 2, position: 'Cooperative, Livelihood Public Works, Infrastructure', prefix: '', fname: 'Roberto', mname: 'S.', lname: 'Antonio', suffix: '', contactNo: '09123451239', address: 'Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
-  { id: 3, position: 'Education, Culture and Social Welfare', prefix: '', fname: 'Janzel Jhae', mname: 'B.', lname: 'Amoroso', suffix: '', contactNo: '09123451245', address: 'Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
-  { id: 4, position: 'Environmental Protection', prefix: '', fname: 'Andy', mname: 'G.', lname: 'Vicente', suffix: '', contactNo: '09123451235', address: 'Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
-  { id: 5, position: 'Housing, Utilize Public Utilities and Facilities', prefix: '', fname: 'Eric', mname: 'T.', lname: 'Tayo', suffix: '', contactNo: '09123451236', address: 'Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
-  { id: 6, position: 'Human Rights Peace and Order Public Safety', prefix: '', fname: 'Ulysses', mname: 'C.', lname: 'Cypress', suffix: '', contactNo: '09123451237', address: 'Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
-  { id: 7, position: 'Secretary', prefix: '', fname: 'Cerenia', mname: 'A.', lname: 'Coladilla', suffix: '', contactNo: '09123451240', address: 'Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
-  { id: 8, position: 'Treasurer', prefix: '', fname: 'Olivia', mname: 'L.', lname: 'Eduarte', suffix: '', contactNo: '09123451241', address: 'Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
-  { id: 9, position: 'Women and Family', prefix: '', fname: 'Reiiel Agustine', mname: '', lname: 'Sagay', suffix: '', contactNo: '09123456789', address: 'Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
-  { id: 10, position: 'Youth and Sports Development', prefix: '', fname: 'Ace', mname: '', lname: 'Liwanag', suffix: '', contactNo: '09123451242', address: 'Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
+  { id: 1, position: 'Captain', prefix: '', fname: 'Garyy', mname: 'N.', lname: 'Esteban', suffix: '', contactNo: '09123451234', address: 'Barangay Fatima I, Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
+  { id: 2, position: 'Cooperative, Livelihood Public Works, Infrastructure', prefix: '', fname: 'Roberto', mname: 'S.', lname: 'Antonio', suffix: '', contactNo: '09123451239', address: 'Barangay Fatima I, Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
+  { id: 3, position: 'Education, Culture and Social Welfare', prefix: '', fname: 'Janzel Jhae', mname: 'B.', lname: 'Amoroso', suffix: '', contactNo: '09123451245', address: 'Barangay Fatima I, Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
+  { id: 4, position: 'Environmental Protection', prefix: '', fname: 'Andy', mname: 'G.', lname: 'Vicente', suffix: '', contactNo: '09123451235', address: 'Barangay Fatima I, Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
+  { id: 5, position: 'Housing, Utilize Public Utilities and Facilities', prefix: '', fname: 'Eric', mname: 'T.', lname: 'Tayo', suffix: '', contactNo: '09123451236', address: 'Barangay Fatima I, Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
+  { id: 6, position: 'Human Rights Peace and Order Public Safety', prefix: '', fname: 'Ulysses', mname: 'C.', lname: 'Cypress', suffix: '', contactNo: '09123451237', address: 'Barangay Fatima I, Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
+  { id: 7, position: 'Secretary', prefix: '', fname: 'Cerenia', mname: 'A.', lname: 'Coladilla', suffix: '', contactNo: '09123451240', address: 'Barangay Fatima I, Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
+  { id: 8, position: 'Treasurer', prefix: '', fname: 'Olivia', mname: 'L.', lname: 'Eduarte', suffix: '', contactNo: '09123451241', address: 'Barangay Fatima I, Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
+  { id: 9, position: 'Women and Family', prefix: '', fname: 'Reiiel Agustine', mname: '', lname: 'Sagay', suffix: '', contactNo: '09123456789', address: 'Barangay Fatima I, Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
+  { id: 10, position: 'Youth and Sports Development', prefix: '', fname: 'Ace', mname: '', lname: 'Liwanag', suffix: '', contactNo: '09123451242', address: 'Barangay Fatima I, Dasmarinas, Cavite', startOfTerm: '2023-11-01', endOfTerm: '2026-11-01', isOther: false, archived: false },
 ];
 
 const defaultCitizens = [
-  { id: 1, fname: 'Angelica', mname: 'S.', lname: 'Puray', placeOfBirth: 'Dasmarinas, Cavite', birthdate: '2001-10-03', gender: 'Female', contactNo: '09123456789', occupation: 'Clerk', citizenship: 'Filipino', civilStatus: 'Married', nationalID: '123456', voterStatus: 'Voter', email: 'angelica@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 1', lot: 'Lot 1', subdivision: 'Phase 1 Windward Hills Subdivision', purok: 'Purok 1', precinct: '0042A', householdNo: 'HH-001', rentee: 'No', fourPs: 'No', residencyType: 'Resident', memberSince: '2018-05-01', pwd: 'No', archived: false },
-  { id: 2, fname: 'Jem Jinell', mname: 'L.', lname: 'Maggay', placeOfBirth: 'Dasmarinas, Cavite', birthdate: '2001-09-10', gender: 'Male', contactNo: '09123456789', occupation: 'IT Specialist', citizenship: 'Filipino', civilStatus: 'Single', nationalID: '123457', voterStatus: 'Voter', email: 'jem@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 1', lot: 'Lot 2', subdivision: 'Phase 1 Windward Hills Subdivision', purok: 'Purok 1', precinct: '0042A', householdNo: 'HH-002', rentee: 'No', fourPs: 'No', residencyType: 'Resident', memberSince: '2019-03-15', pwd: 'No', archived: false },
-  { id: 3, fname: 'Julianne', mname: 'B.', lname: 'Dela Cruz', placeOfBirth: 'Imus, Cavite', birthdate: '2003-11-15', gender: 'Female', contactNo: '09123456789', occupation: 'Student', citizenship: 'Filipino', civilStatus: 'Married', nationalID: '123458', voterStatus: 'Non-Voter', email: 'julianne@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 2', lot: 'Lot 5', subdivision: 'Fatima I Proper', purok: 'Purok 2', precinct: '0043B', householdNo: 'HH-003', rentee: 'Yes', fourPs: 'No', residencyType: 'Resident', memberSince: '2020-06-10', pwd: 'Yes', archived: false },
-  { id: 4, fname: 'Reiiel Agustine', mname: 'R.', lname: 'Sagay', placeOfBirth: 'Dasmarinas, Cavite', birthdate: '2001-08-30', gender: 'Male', contactNo: '09123456789', occupation: 'Student', citizenship: 'Filipino', civilStatus: 'Single', nationalID: '123459', voterStatus: 'Voter', email: 'reiiel@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 1', lot: 'Lot 1', subdivision: 'Fatima I Proper', purok: 'Purok 2', precinct: '0042A', householdNo: 'HH-004', rentee: 'No', fourPs: 'No', residencyType: 'Resident', memberSince: '2021-05-01', pwd: 'Yes', archived: false },
-  { id: 5, fname: 'Carlos', mname: 'R.', lname: 'Alvarez', placeOfBirth: 'Bacoor, Cavite', birthdate: '1960-02-18', gender: 'Male', contactNo: '09183334455', occupation: 'Retired Mechanic', citizenship: 'Filipino', civilStatus: 'Married', nationalID: '123460', voterStatus: 'Voter', email: 'carlos@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 4', lot: 'Lot 9', subdivision: 'Fatima I Proper', purok: 'Purok 3', precinct: '0044A', householdNo: 'HH-005', rentee: 'No', fourPs: 'Yes', residencyType: 'Resident', memberSince: '2005-01-10', pwd: 'No', archived: false },
-  { id: 6, fname: 'Mark', mname: 'T.', lname: 'Aquino', placeOfBirth: 'Manila', birthdate: '1993-07-12', gender: 'Male', contactNo: '09185556677', occupation: 'Delivery Rider', citizenship: 'Filipino', civilStatus: 'Single', nationalID: '123461', voterStatus: 'Non-Voter', email: 'mark@example.com', address: 'Salawag, Dasmarinas, Cavite', blk: 'Blk 8', lot: 'Lot 3', subdivision: 'Outside Barangay', purok: 'Non-Resident', precinct: 'N/A', householdNo: 'NR-001', rentee: 'Yes', fourPs: 'No', residencyType: 'Non-Resident', memberSince: '2025-02-01', pwd: 'No', archived: false },
+  { id: 1, fname: 'Angelica', mname: 'S.', lname: 'Puray', placeOfBirth: 'Dasmarinas, Cavite', birthdate: '2001-10-03', gender: 'Female', contactNo: '09123456789', occupation: 'Clerk', citizenship: 'Filipino', civilStatus: 'Married', nationalID: '123456', voterStatus: 'Voter', email: 'angelica@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 1', lot: 'Lot 1', subdivision: 'Phase 1 Windward Hills Subdivision', purok: 'Fatima 1', precinct: '0042A', householdNo: 'HH-001', rentee: 'No', fourPs: 'No', residencyType: 'Resident', memberSince: '2018-05-01', pwd: 'No', archived: false },
+  { id: 2, fname: 'Jem Jinell', mname: 'L.', lname: 'Maggay', placeOfBirth: 'Dasmarinas, Cavite', birthdate: '2001-09-10', gender: 'Male', contactNo: '09123456789', occupation: 'IT Specialist', citizenship: 'Filipino', civilStatus: 'Single', nationalID: '123457', voterStatus: 'Voter', email: 'jem@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 1', lot: 'Lot 2', subdivision: 'Phase 1 Windward Hills Subdivision', purok: 'Fatima 1', precinct: '0042A', householdNo: 'HH-002', rentee: 'No', fourPs: 'No', residencyType: 'Resident', memberSince: '2019-03-15', pwd: 'No', archived: false },
+  { id: 3, fname: 'Julianne', mname: 'B.', lname: 'Dela Cruz', placeOfBirth: 'Imus, Cavite', birthdate: '2003-11-15', gender: 'Female', contactNo: '09123456789', occupation: 'Student', citizenship: 'Filipino', civilStatus: 'Married', nationalID: '123458', voterStatus: 'Non-Voter', email: 'julianne@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 2', lot: 'Lot 5', subdivision: 'Fatima I Proper', purok: 'Fatima 1', precinct: '0043B', householdNo: 'HH-003', rentee: 'Yes', fourPs: 'No', residencyType: 'Resident', memberSince: '2020-06-10', pwd: 'Yes', archived: false },
+  { id: 4, fname: 'Reiiel Agustine', mname: 'R.', lname: 'Sagay', placeOfBirth: 'Dasmarinas, Cavite', birthdate: '2001-08-30', gender: 'Male', contactNo: '09123456789', occupation: 'Student', citizenship: 'Filipino', civilStatus: 'Single', nationalID: '123459', voterStatus: 'Voter', email: 'reiiel@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 1', lot: 'Lot 1', subdivision: 'Fatima I Proper', purok: 'Fatima 1', precinct: '0042A', householdNo: 'HH-004', rentee: 'No', fourPs: 'No', residencyType: 'Resident', memberSince: '2021-05-01', pwd: 'Yes', archived: false },
+  { id: 5, fname: 'Carlos', mname: 'R.', lname: 'Alvarez', placeOfBirth: 'Bacoor, Cavite', birthdate: '1960-02-18', gender: 'Male', contactNo: '09183334455', occupation: 'Retired Mechanic', citizenship: 'Filipino', civilStatus: 'Married', nationalID: '123460', voterStatus: 'Voter', email: 'carlos@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 4', lot: 'Lot 9', subdivision: 'Fatima I Proper', purok: 'Fatima 1', precinct: '0044A', householdNo: 'HH-005', rentee: 'No', fourPs: 'Yes', residencyType: 'Resident', memberSince: '2005-01-10', pwd: 'No', archived: false },
+  { id: 6, fname: 'Mark', mname: 'T.', lname: 'Aquino', placeOfBirth: 'Manila', birthdate: '1993-07-12', gender: 'Male', contactNo: '09185556677', occupation: 'Delivery Rider', citizenship: 'Filipino', civilStatus: 'Single', nationalID: '123461', voterStatus: 'Non-Voter', email: 'mark@example.com', address: 'Barangay Fatima I, Dasmarinas, Cavite', blk: 'Blk 8', lot: 'Lot 3', subdivision: 'Outside Barangay', purok: 'Fatima 1', precinct: 'N/A', householdNo: 'NR-001', rentee: 'Yes', fourPs: 'No', residencyType: 'Non-Resident', memberSince: '2025-02-01', pwd: 'No', archived: false },
 ];
 
 const defaultBlotters = [
@@ -96,13 +96,23 @@ const defaultRequests = [
 
 const defaultSmsLogs = [
   { id: 1, date: '2026-11-20 09:30', title: 'Community Clean-Up Drive', message: 'Barangay Fatima I clean-up drive this Saturday at 7:00 AM. Assembly at the Barangay Hall.', recipientCount: 6 },
-  { id: 2, date: '2026-11-18 14:15', title: 'Road Maintenance Advisory', message: 'Minor road repair along Purok 2 main street from 8:00 AM to 4:00 PM tomorrow.', recipientCount: 6 },
+  { id: 2, date: '2026-11-18 14:15', title: 'Road Maintenance Advisory', message: 'Minor road repair along Fatima 1 main street from 8:00 AM to 4:00 PM tomorrow.', recipientCount: 6 },
 ];
+
+const FIXED_ADDRESS = 'Barangay Fatima I, Dasmarinas, Cavite';
+const FIXED_PUROK = 'Fatima 1';
+const fixCitizen = (c) => ({ ...c, purok: FIXED_PUROK, address: FIXED_ADDRESS });
+const fixOfficial = (o) => ({ ...o, address: FIXED_ADDRESS });
 
 function getSavedData() {
   try {
     const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) return JSON.parse(saved);
+    if (saved) {
+      const data = JSON.parse(saved);
+      if (data.citizens) data.citizens = data.citizens.map(fixCitizen);
+      if (data.officials) data.officials = data.officials.map(fixOfficial);
+      return data;
+    }
   } catch (err) {
     return null;
   }
@@ -298,12 +308,14 @@ export default function App() {
     syncTableToSupabase('users', next);
   }
   function setOfficials(next) {
-    setOfficialsState(next);
-    syncTableToSupabase('officials', next);
+    const fixed = next.map(fixOfficial);
+    setOfficialsState(fixed);
+    syncTableToSupabase('officials', fixed);
   }
   function setCitizens(next) {
-    setCitizensState(next);
-    syncTableToSupabase('citizens', next);
+    const fixed = next.map(fixCitizen);
+    setCitizensState(fixed);
+    syncTableToSupabase('citizens', fixed);
   }
   function setBlotters(next) {
     setBlottersState(next);
@@ -334,10 +346,10 @@ export default function App() {
         if (uRes.data && uRes.data.length > 0) setUsersState(uRes.data);
         else await supabase.from('users').upsert(defaultUsers);
 
-        if (oRes.data && oRes.data.length > 0) setOfficialsState(oRes.data);
+        if (oRes.data && oRes.data.length > 0) setOfficialsState(oRes.data.map(fixOfficial));
         else await supabase.from('officials').upsert(defaultOfficials);
 
-        if (cRes.data && cRes.data.length > 0) setCitizensState(cRes.data);
+        if (cRes.data && cRes.data.length > 0) setCitizensState(cRes.data.map(fixCitizen));
         else await supabase.from('citizens').upsert(defaultCitizens);
 
         if (bRes.data && bRes.data.length > 0) setBlottersState(bRes.data);
@@ -371,7 +383,7 @@ export default function App() {
     fname: '',
     lname: '',
     contactNo: '',
-    purok: 'Purok 1',
+    purok: 'Fatima 1',
     residencyType: 'Resident',
     username: '',
     password: '',
@@ -450,7 +462,7 @@ export default function App() {
     setPage('citizen-home');
     setLoginError('');
     setAuthMode('login');
-    setRegForm({ fname: '', lname: '', contactNo: '', purok: 'Purok 1', residencyType: 'Resident', username: '', password: '' });
+    setRegForm({ fname: '', lname: '', contactNo: '', purok: 'Fatima 1', residencyType: 'Resident', username: '', password: '' });
     notify('Account registered! Welcome, ' + newUser.name);
   }
 
@@ -625,7 +637,7 @@ export default function App() {
               </div>
               <input required placeholder="Contact # (09xxxxxxxxx)" value={regForm.contactNo} onChange={(e) => setRegForm({ ...regForm, contactNo: e.target.value })} className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm" />
               <div className="grid grid-cols-2 gap-2">
-                <input placeholder="Purok" value={regForm.purok} onChange={(e) => setRegForm({ ...regForm, purok: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
+                <input readOnly placeholder="Road" value={regForm.purok} onChange={(e) => setRegForm({ ...regForm, purok: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
                 <select value={regForm.residencyType} onChange={(e) => setRegForm({ ...regForm, residencyType: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm bg-white">
                   <option value="Resident">Resident</option>
                   <option value="Non-Resident">Non-Resident</option>
@@ -1162,9 +1174,9 @@ function CitizenProfilePage({ citizen, onUpdate }) {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <input placeholder="Occupation" value={form.occupation} onChange={(e) => setForm({ ...form, occupation: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
-            <input placeholder="Purok" value={form.purok} onChange={(e) => setForm({ ...form, purok: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
+            <input readOnly placeholder="Road" value={form.purok} onChange={(e) => setForm({ ...form, purok: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
           </div>
-          <input placeholder="Address" value={form.address} onChange={(e) => setForm({ ...form, address: e.target.value })} className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm" />
+          <input readOnly placeholder="Address" value={form.address} onChange={(e) => setForm({ ...form, address: e.target.value })} className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm" />
           <button type="submit" className="rounded-lg bg-green-700 px-5 py-2 text-sm font-semibold text-white hover:bg-green-800">
             Save Changes
           </button>
@@ -1369,7 +1381,7 @@ const emptyCitizen = {
   blk: '',
   lot: '',
   subdivision: 'Phase 1 Windward Hills Subdivision',
-  purok: 'Purok 1',
+  purok: 'Fatima 1',
   precinct: '',
   householdNo: '',
   rentee: 'No',
@@ -1422,7 +1434,7 @@ function CitizensPage({ citizens, setCitizens, hasActiveBlotter, notify, askConf
   }
 
   function exportCsv() {
-    const header = 'Full Name,National ID,Birthdate,Age,Gender,Purok,Household,Precinct,Voter,PWD,Type,Contact\n';
+    const header = 'Full Name,National ID,Birthdate,Age,Gender,Road,Household,Precinct,Voter,PWD,Type,Contact\n';
     const rows = list.map((c) =>
       `"${c.fname} ${c.mname} ${c.lname}","${c.nationalID}","${c.birthdate}",${getAge(c.birthdate)},"${c.gender}","${c.purok}","${c.householdNo}","${c.precinct}","${c.voterStatus}","${c.pwd}","${c.residencyType}","${c.contactNo}"`
     ).join('\n');
@@ -1435,7 +1447,7 @@ function CitizensPage({ citizens, setCitizens, hasActiveBlotter, notify, askConf
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <h1 className="text-2xl font-bold text-green-950">Barangay Citizen Information</h1>
-          <p className="text-sm text-slate-600">Residents, Non-Residents, Puroks, Precincts, and Households</p>
+          <p className="text-sm text-slate-600">Residents, Non-Residents, Roads, Precincts, and Households</p>
         </div>
         <div className="flex gap-2">
           <button type="button" onClick={exportCsv} className="inline-flex items-center gap-2 rounded-lg bg-white border border-green-700 px-3.5 py-2 text-sm font-semibold text-green-900 hover:bg-green-50">
@@ -1476,7 +1488,7 @@ function CitizensPage({ citizens, setCitizens, hasActiveBlotter, notify, askConf
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Search name, national ID, purok, precinct, household..."
+              placeholder="Search name, national ID, road, precinct, household..."
               className="w-full rounded-lg border border-slate-300 pl-9 pr-3 py-2 text-sm"
             />
           </div>
@@ -1497,7 +1509,7 @@ function CitizensPage({ citizens, setCitizens, hasActiveBlotter, notify, askConf
               <th className="px-4 py-3">Full Name</th>
               <th className="px-4 py-3">National ID</th>
               <th className="px-4 py-3">Age / Gender</th>
-              <th className="px-4 py-3">Purok / Household</th>
+              <th className="px-4 py-3">Road / Household</th>
               <th className="px-4 py-3">Precinct</th>
               <th className="px-4 py-3">Status</th>
               <th className="px-4 py-3 text-right">Action</th>
@@ -1572,7 +1584,7 @@ function CitizensPage({ citizens, setCitizens, hasActiveBlotter, notify, askConf
             <input required placeholder="Occupation *" value={form.occupation} onChange={(e) => setForm({ ...form, occupation: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <input placeholder="Purok (e.g. Purok 1)" value={form.purok} onChange={(e) => setForm({ ...form, purok: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
+            <input readOnly placeholder="Road" value={form.purok} onChange={(e) => setForm({ ...form, purok: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
             <input placeholder="Precinct (e.g. 0042A)" value={form.precinct} onChange={(e) => setForm({ ...form, precinct: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
             <input placeholder="Household No. (e.g. HH-001)" value={form.householdNo} onChange={(e) => setForm({ ...form, householdNo: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
           </div>
@@ -1606,7 +1618,7 @@ function CitizensPage({ citizens, setCitizens, hasActiveBlotter, notify, askConf
             </select>
             <input placeholder="Place of Birth" value={form.placeOfBirth} onChange={(e) => setForm({ ...form, placeOfBirth: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
           </div>
-          <input placeholder="Address" value={form.address} onChange={(e) => setForm({ ...form, address: e.target.value })} className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm" />
+          <input readOnly placeholder="Address" value={form.address} onChange={(e) => setForm({ ...form, address: e.target.value })} className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm" />
           <div className="flex justify-end gap-2 pt-2">
             <button type="button" onClick={() => setOpenForm(false)} className="rounded-lg border border-slate-300 px-4 py-2 text-sm">Close</button>
             <button type="submit" className="rounded-lg bg-green-700 px-5 py-2 text-sm font-semibold text-white">{editId ? 'UPDATE' : 'ADD'}</button>
@@ -1640,7 +1652,7 @@ function CitizensPage({ citizens, setCitizens, hasActiveBlotter, notify, askConf
               <div><strong>Place of Birth:</strong> {selectedCitizen.placeOfBirth}</div>
               <div><strong>Gender / Civil Status:</strong> {selectedCitizen.gender} / {selectedCitizen.civilStatus}</div>
               <div><strong>Contact:</strong> {selectedCitizen.contactNo}</div>
-              <div><strong>Purok / Precinct:</strong> {selectedCitizen.purok} / {selectedCitizen.precinct || '-'}</div>
+              <div><strong>Road / Precinct:</strong> {selectedCitizen.purok} / {selectedCitizen.precinct || '-'}</div>
               <div><strong>Household No.:</strong> {selectedCitizen.householdNo || '-'}</div>
               <div><strong>Voter / PWD:</strong> {selectedCitizen.voterStatus} / {selectedCitizen.pwd}</div>
               <div><strong>Rentee / 4Ps:</strong> {selectedCitizen.rentee} / {selectedCitizen.fourPs}</div>
@@ -1661,7 +1673,7 @@ const emptyOfficial = {
   lname: '',
   suffix: '',
   contactNo: '',
-  address: 'Dasmarinas, Cavite',
+  address: 'Barangay Fatima I, Dasmarinas, Cavite',
   startOfTerm: '2024-01-01',
   endOfTerm: '2026-11-01',
 };
@@ -1807,7 +1819,7 @@ function OfficialsPage({ officials, setOfficials, notify, askConfirm }) {
             <input type="date" value={form.startOfTerm} onChange={(e) => setForm({ ...form, startOfTerm: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
             <input type="date" value={form.endOfTerm} onChange={(e) => setForm({ ...form, endOfTerm: e.target.value })} className="rounded-lg border border-slate-300 px-3 py-2 text-sm" />
           </div>
-          <input placeholder="Address" value={form.address} onChange={(e) => setForm({ ...form, address: e.target.value })} className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm" />
+          <input readOnly placeholder="Address" value={form.address} onChange={(e) => setForm({ ...form, address: e.target.value })} className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm" />
           <div className="flex justify-end gap-2 pt-2">
             <button type="button" onClick={() => setOpenForm(false)} className="rounded-lg border border-slate-300 px-4 py-2 text-sm">Cancel</button>
             <button type="submit" className="rounded-lg bg-green-700 px-4 py-2 text-sm font-semibold text-white">Save</button>
