@@ -218,7 +218,7 @@ function buildCertificateHtml(docTitle, citizen, council, bodyParagraphs, purpos
     .join('');
 
   return (
-    '<div style="border:2px solid #1e293b;padding:24px;">' +
+    '<div style="padding:24px;">' +
     '<table style="width:100%;border-bottom:2px solid #14532d;padding-bottom:10px;margin-bottom:16px;"><tr>' +
     '<td style="width:82px;vertical-align:middle;"><img src="' + SEAL_DATA_URL + '" width="72" height="72" style="border-radius:50%;" /></td>' +
     '<td style="text-align:center;vertical-align:middle;">' +
@@ -251,7 +251,7 @@ function buildCertificateHtml(docTitle, citizen, council, bodyParagraphs, purpos
 function buildCfaHtml(item, secretaryName, captainName) {
   const issuedDate = new Date().toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
   return (
-    '<div style="border:2px solid #1e293b;padding:30px;">' +
+    '<div style="padding:30px;">' +
     '<table style="width:100%;border-bottom:2px solid #1e293b;padding-bottom:12px;margin-bottom:20px;"><tr>' +
     '<td style="width:82px;vertical-align:middle;"><img src="' + SEAL_DATA_URL + '" width="72" height="72" style="border-radius:50%;" /></td>' +
     '<td style="text-align:center;vertical-align:middle;">' +
@@ -2026,7 +2026,7 @@ function BlotterPage({ blotters, setBlotters, officials, notify, askConfirm }) {
                 Print / Save PDF
               </button>
             </div>
-            <div className="border-2 border-slate-800 p-8 bg-white font-serif space-y-5">
+            <div className="p-8 bg-white font-serif space-y-5">
               <div className="flex items-center justify-center gap-4 border-b-2 border-slate-800 pb-4">
                 <img src={barangaySeal} alt="Barangay Fatima I Seal" className="h-16 w-16 rounded-full object-cover" />
                 <div className="text-center">
@@ -2357,7 +2357,7 @@ function CertificatesPage({ citizens, officials, hasActiveBlotter, notify }) {
                 </button>
               </div>
             </div>
-            <div className="border-2 border-slate-800 p-6 bg-white font-serif">
+            <div className="p-6 bg-white font-serif">
               <div className="flex items-center justify-center gap-4 border-b-2 border-green-900 pb-4 mb-5">
                 <img src={barangaySeal} alt="Barangay Fatima I Seal" className="h-16 w-16 rounded-full object-cover" />
                 <div className="text-center">
